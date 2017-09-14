@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  
+  background-image: url("http://www.planwallpaper.com/static/images/6935544-blue-backgrounds-hd.jpg");
+}
+
+h1 {
+  width: 400px;
+  height: 100px;
+  position: relative;
+  background-color: brown;
+  font-size: 50px;
+  font-family: Anton;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
+#container {
+  width: 500px;
+  height: 460px;
+  position: relative;
+  background-color: yellow;
+  font-family: futura;
+  font-size: 23px;
+  top: 25px;
+  left: 10px;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
+#randomnumber {
+  width: 250px;
+  height: 150px;
+  position: relative;
+  background-color: green;
+  top: 40px;
+  left: 10px;
+  font-family: arial;
+  font-size: 150px;
+  font position: center;
+}
+
+#scores {
+  position: relative;
+  width: 120px;
+  height: 150px;
+  background-color: purple;
+  top: -110px;
+  left: 270px;
+  right: 120px;
+}
+
+#Youwon {
+  font-family: arial;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+#Wins {
+  font-family: arial;
+  font-size: 50px;
+  padding-left: 40px;
+}
+#Youlost {
+  font-family: arial;
+  font-size: 25px;
+  padding-left: 10px;
+}
+#Losses {
+  font-family: arial;
+  font-size: 50px;
+  padding-left: 40px;
+}
+
+.buttons {
+  /*position: relative;
+  width: 420px;
+  height:100px;
+  background-color: white;
+  left: 10px;
+  top: -95px;*/
+
+}
+
+#redbutton {
+  position: relative;
+  width:102px;
+  height:100px;
+  left:10px;
+  bottom:94px;
+  background-color: red;
+  display: inline-block;
+}
+
+#bluebutton {
+  position: relative;
+  width:102px;
+  height:100px;
+  left:20px;
+  bottom:94px;
+  background-color: blue;
+  display: inline-block;
+}
+
+#yellowbutton{
+  position: relative;
+  width: 102px;
+  height:100px;
+  left:30px;
+  bottom:94px;
+  background-color: yellow;
+  display: inline-block;
+}
+
+#greenbutton {
+  background-image:;
+  position: relative;
+  width:102px;
+  height:100px;
+  left:40px;
+  bottom:94px;
+  background-color: green;
+  display: inline-block;
+}
+
+#totalscore {
+  position: relative;
+  width: 250px ;
+  height: 40px ;
+  background-color: red;
+  font-family:arial bold;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-left: 10px;
+  left: 10px;
+  top: -80px;
+
+}
+
+#matchingnumber {
+  position: relative;
+  width: 250px;
+  height: 150px;
+  background-color: pink;
+  left: 10px; 
+  top: -65px;
+  font-family: arial;
+  font-size: 150px;
+  font position: center;
+  }
+
+

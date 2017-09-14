@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>CrystalsCollector!</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initials scale=1">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+</head>
+
+<body>
+	
+
+	<!-- <div class="mediPlayer">
+
+  <audio class="listen" preload="none" data-size="250" src="sound.mp3"></audio>
+
+	</div> -->
+
+	<header>
+
+		<h1><font color="white">Crystals Collector!</font></h1>
+		
+	</header>
+
+		<div id = container >
+			<font color="red">
+			<p>-You will be given a random number at the start of the game.</p>
+			<br>
+			<p>-There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<br>
+			<p>-You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+			<br>
+			<p>-The value of each crystal is hidden from you until you click on it.</p>
+			<br>
+			<p>-Each time when the game starts, the game will change the values of each crystal.</p></font>
+			
+		</div>
+
+		<div id = "randomnumber"></div>
+
+		<div id = "scores"><font color="white">
+			<div id = "Youwon">You won!</div>
+			<div id = "Wins">Wins</div>
+			<div id = "Youlost">You lost!</div>
+			<div id = "Losses">Losses</div>
+			</font>
+		</div>
+
+		<div class = "buttons">
+			<div id = "redbutton"><img src="assets/images/redbutton.png" height ="100" width="102"></div>
+			<div id = "bluebutton"><img src="assets/images/bluebutton.png" height ="100" width="102"></div>
+			<div id = "yellowbutton"><img src="assets/images/yellowbutton.png" height ="100" width="102"></div>
+			<div id = "greenbutton"><img src="assets/images/greenbutton.png" height ="100" width="102"></div>
+		</div>
+  	
+		<div id = "totalscore" ><font color="white">Your total score is:</font></div>
+
+		<div id = "matchingnumber"></div>
+
+		<audio controls autoplay>
+  			<source src="assets/Sounds/Futuristic-music.mp3" type="audio/mpeg">
+  		</audio>
+
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+	
+</body>
+</html>
